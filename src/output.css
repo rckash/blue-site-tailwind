@@ -733,6 +733,22 @@ video {
   background-image: none;
 }
 
+.bg-\[url\(\'\.\/images\/header\.jpg\'\)\] {
+  background-image: url('./images/header.jpg');
+}
+
+.bg-\[url\(\'images\/header\.jpg\'\)\] {
+  background-image: url('images/header.jpg');
+}
+
+.bg-\[url\(\'\.\.\/images\/header\.jpg\'\)\] {
+  background-image: url('../images/header.jpg');
+}
+
+.bg-\[url\(\'images\/content\.jpg\'\)\] {
+  background-image: url('images/content.jpg');
+}
+
 .bg-cover {
   background-size: cover;
 }
