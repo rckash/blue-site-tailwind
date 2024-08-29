@@ -1,3 +1,51 @@
+@font-face {
+  font-display: swap;
+
+  font-family: "DM Sans";
+
+  src: url(../fonts/DMSans-Regular.ttf);
+
+  font-style: normal;
+
+  font-weight: 400;
+}
+
+@font-face {
+  font-display: swap;
+
+  font-family: "DM Sans";
+
+  src: url(/fonts/DMSans-Medium.ttf);
+
+  font-style: normal;
+
+  font-weight: 500;
+}
+
+@font-face {
+  font-display: swap;
+
+  font-family: "DM Sans";
+
+  src: url(/fonts/DMSans-SemiBold.ttf);
+
+  font-style: normal;
+
+  font-weight: 600;
+}
+
+@font-face {
+  font-display: swap;
+
+  font-family: "DM Sans";
+
+  src: url(/fonts/DMSans-Bold.ttf);
+
+  font-style: normal;
+
+  font-weight: 700;
+}
+
 /*
 ! tailwindcss v3.4.10 | MIT License | https://tailwindcss.com
 */
@@ -818,7 +866,7 @@ video {
 }
 
 .font-dmsans {
-  font-family: dm-sans, sans-serif;
+  font-family: dm-sans, DM Sans, sans-serif;
 }
 
 .text-2xl {
@@ -892,7 +940,7 @@ video {
 
   font-family: "dm-sans";
 
-  src: url("../fonts/DMSans-Medium.ttf") format();
+  src: url("../fonts/DMSans-Medium.ttf");
 
   font-style: normal;
 

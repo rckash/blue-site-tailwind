@@ -1,3 +1,4 @@
+@import "./font-face.css";
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -5,7 +6,7 @@
 @font-face {
   font-display: swap;
   font-family: "dm-sans";
-  src: url("../fonts/DMSans-Medium.ttf") format();
+  src: url("../fonts/DMSans-Medium.ttf");
   font-style: normal;
   font-weight: 500;
 }
