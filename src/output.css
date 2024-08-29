@@ -596,16 +596,16 @@ video {
   width: 13rem;
 }
 
-.max-w-48 {
-  max-width: 12rem;
-}
-
 .max-w-2xl {
   max-width: 42rem;
 }
 
 .max-w-3xl {
   max-width: 48rem;
+}
+
+.max-w-48 {
+  max-width: 12rem;
 }
 
 .max-w-5xl {
@@ -650,12 +650,12 @@ video {
   justify-content: space-between;
 }
 
-.gap-4 {
-  gap: 1rem;
-}
-
 .gap-11 {
   gap: 2.75rem;
+}
+
+.gap-4 {
+  gap: 1rem;
 }
 
 .gap-7 {
@@ -706,9 +706,9 @@ video {
   border-color: rgb(209 213 219 / var(--tw-border-opacity));
 }
 
-.bg-gray-800 {
+.bg-blue-800 {
   --tw-bg-opacity: 1;
-  background-color: rgb(31 41 55 / var(--tw-bg-opacity));
+  background-color: rgb(30 64 175 / var(--tw-bg-opacity));
 }
 
 .bg-blue-900 {
@@ -716,29 +716,19 @@ video {
   background-color: rgb(30 58 138 / var(--tw-bg-opacity));
 }
 
+.bg-gray-50 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(249 250 251 / var(--tw-bg-opacity));
+}
+
+.bg-gray-800 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(31 41 55 / var(--tw-bg-opacity));
+}
+
 .bg-white {
   --tw-bg-opacity: 1;
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
-}
-
-.bg-\[url\(\'\/images\/content\.jpg\'\)\] {
-  background-image: url('/images/content.jpg');
-}
-
-.bg-\[url\(\'\/images\/header\.jpg\'\)\] {
-  background-image: url('/images/header.jpg');
-}
-
-.bg-none {
-  background-image: none;
-}
-
-.bg-\[url\(\'\.\/images\/header\.jpg\'\)\] {
-  background-image: url('./images/header.jpg');
-}
-
-.bg-\[url\(\'images\/header\.jpg\'\)\] {
-  background-image: url('images/header.jpg');
 }
 
 .bg-\[url\(\'\.\.\/images\/header\.jpg\'\)\] {
@@ -747,6 +737,14 @@ video {
 
 .bg-\[url\(\'images\/content\.jpg\'\)\] {
   background-image: url('images/content.jpg');
+}
+
+.bg-\[url\(\'images\/header\.jpg\'\)\] {
+  background-image: url('images/header.jpg');
+}
+
+.bg-none {
+  background-image: none;
 }
 
 .bg-cover {
@@ -819,14 +817,17 @@ video {
   text-align: center;
 }
 
+.font-serif {
+  font-family: ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
+}
+
+.font-dmsans {
+  font-family: DM Sans, sans-serif;
+}
+
 .text-2xl {
   font-size: 1.5rem;
   line-height: 2rem;
-}
-
-.text-base {
-  font-size: 1rem;
-  line-height: 1.5rem;
 }
 
 .text-4xl {
@@ -847,6 +848,11 @@ video {
 .text-7xl {
   font-size: 4.5rem;
   line-height: 1;
+}
+
+.text-base {
+  font-size: 1rem;
+  line-height: 1.5rem;
 }
 
 .text-lg {
@@ -885,6 +891,12 @@ video {
   opacity: 0.5;
 }
 
+@font-face {
+  font-family: "DM Sans";
+
+  src: url("../fonts/DMSans-Medium.ttf");
+}
+
 .before\:absolute::before {
   content: var(--tw-content);
   position: absolute;
@@ -893,6 +905,11 @@ video {
 .before\:inset-0::before {
   content: var(--tw-content);
   inset: 0px;
+}
+
+.before\:-z-\[-1\]::before {
+  content: var(--tw-content);
+  z-index: 1;
 }
 
 .before\:z-\[-1\]::before {
@@ -909,6 +926,11 @@ video {
 .before\:opacity-100::before {
   content: var(--tw-content);
   opacity: 1;
+}
+
+.before\:opacity-30::before {
+  content: var(--tw-content);
+  opacity: 0.3;
 }
 
 .before\:content-\[\'\'\]::before {
