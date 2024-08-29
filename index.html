@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Blue Site Tailwind</title>
+    <!-- <link rel="stylesheet" href="/font-face.css" /> -->
     <script src="https://cdn.tailwindcss.com"></script>
   </head>
   <body class="text-white bg-blue-900">
@@ -31,7 +32,7 @@
     </header>
     <main>
       <section
-        class="py-40 pt-64 bg-[url('../images/header.jpg')] bg-no-repeat bg-cover bg-fixed bg-center relative before:content-[''] before:absolute before:inset-0 before:bg-blue-900 before:opacity-30 before:-z-[-1]"
+        class="py-40 pt-64 bg-[url('images/header.jpg')] bg-no-repeat bg-cover bg-fixed bg-center"
       >
         <div class="flex flex-col gap-7 max-w-3xl mx-auto text-center px-5">
           <p class="font-bold text-2xl">Hello World</p>
@@ -45,7 +46,7 @@
         </div>
       </section>
       <section
-        class="py-40 bg-[url('../images/content.jpg')] bg-no-repeat bg-cover bg-fixed bg-center relative before:content-[''] before:absolute before:inset-0 before:bg-blue-900 before:opacity-100 before:z-[-1]"
+        class="py-40 bg-[url('images/content.jpg')] bg-no-repeat bg-cover bg-fixed bg-center relative before:content-[''] before:absolute before:inset-0 before:bg-blue-900 before:opacity-100 before:z-[-1]"
       >
         <div class="flex flex-col gap-7 max-w-3xl mx-auto text-center px-5">
           <p class="font-bold text-lg tracking-widest">FREE SAMPLE</p>
@@ -215,7 +216,7 @@
         <div
           class="flex flex-col lg:flex-row justify-between items-center pb-11 px-5 md:px-28 gap-y-10"
         >
-          <h2>Startup 3</h2>
+          <h2 class="font-bold text-2xl">Startup 3</h2>
           <ul class="flex flex-col lg:flex-row items-center gap-x-6 gap-y-8">
             <li><a href="anothersite.com">Privacy Policy</a></li>
             <li><a href="anothersite.com">Terms</a></li>
