@@ -2,19 +2,3 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
-@font-face {
-  font-display: swap;
-  font-family: "dm-sans";
-  src: url("../fonts/DMSans-Medium.ttf");
-  font-style: normal;
-  font-weight: 500;
-}
-
-@font-face {
-  font-display: swap;
-  font-family: "dm-sans";
-  src: url("../fonts/DMSans-Bold.ttf");
-  font-style: normal;
-  font-weight: 700;
-}

@@ -3,7 +3,7 @@
 
   font-family: "DM Sans";
 
-  src: url(../fonts/DMSans-Regular.ttf);
+  src: url(./fonts/DMSans-Regular.ttf);
 
   font-style: normal;
 
@@ -15,7 +15,7 @@
 
   font-family: "DM Sans";
 
-  src: url(/fonts/DMSans-Medium.ttf);
+  src: url(./fonts/DMSans-Medium.ttf);
 
   font-style: normal;
 
@@ -27,7 +27,7 @@
 
   font-family: "DM Sans";
 
-  src: url(/fonts/DMSans-SemiBold.ttf);
+  src: url(./fonts/DMSans-SemiBold.ttf);
 
   font-style: normal;
 
@@ -39,7 +39,7 @@
 
   font-family: "DM Sans";
 
-  src: url(/fonts/DMSans-Bold.ttf);
+  src: url(./fonts/DMSans-Bold.ttf);
 
   font-style: normal;
 
@@ -933,30 +933,6 @@ video {
 
 .opacity-50 {
   opacity: 0.5;
-}
-
-@font-face {
-  font-display: swap;
-
-  font-family: "dm-sans";
-
-  src: url("../fonts/DMSans-Medium.ttf");
-
-  font-style: normal;
-
-  font-weight: 500;
-}
-
-@font-face {
-  font-display: swap;
-
-  font-family: "dm-sans";
-
-  src: url("../fonts/DMSans-Bold.ttf");
-
-  font-style: normal;
-
-  font-weight: 700;
 }
 
 .before\:absolute::before {
