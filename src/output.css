@@ -817,12 +817,8 @@ video {
   text-align: center;
 }
 
-.font-serif {
-  font-family: ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
-}
-
 .font-dmsans {
-  font-family: DM Sans, sans-serif;
+  font-family: dm-sans, sans-serif;
 }
 
 .text-2xl {
@@ -892,9 +888,27 @@ video {
 }
 
 @font-face {
-  font-family: "DM Sans";
+  font-display: swap;
 
-  src: url("../fonts/DMSans-Medium.ttf");
+  font-family: "dm-sans";
+
+  src: url("../fonts/DMSans-Medium.ttf") format();
+
+  font-style: normal;
+
+  font-weight: 500;
+}
+
+@font-face {
+  font-display: swap;
+
+  font-family: "dm-sans";
+
+  src: url("../fonts/DMSans-Bold.ttf");
+
+  font-style: normal;
+
+  font-weight: 700;
 }
 
 .before\:absolute::before {
