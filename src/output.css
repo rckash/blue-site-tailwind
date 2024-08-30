@@ -921,6 +921,10 @@ video {
   padding-top: 1.75rem;
 }
 
+.text-left {
+  text-align: left;
+}
+
 .text-center {
   text-align: center;
 }
@@ -1086,6 +1090,14 @@ video {
 
   .sm\:justify-normal {
     justify-content: normal;
+  }
+
+  .sm\:text-left {
+    text-align: left;
+  }
+
+  .sm\:text-center {
+    text-align: center;
   }
 
   .sm\:text-7xl {
