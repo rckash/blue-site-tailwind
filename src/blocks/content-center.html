@@ -4,13 +4,15 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Content Center</title>
-    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="output.css" rel="stylesheet" />
   </head>
   <body>
     <section
-      class="bg-gray-50 py-40 pt-64 bg-[url('../images/header.jpg')] bg-no-repeat bg-cover bg-fixed bg-center relative before:content-[''] before:absolute before:inset-0 before:bg-blue-900 before:opacity-30 before:-z-[-1]"
+      class="text-white bg-gray-50 py-40 pt-64 bg-[url('../images/header.jpg')] bg-no-repeat bg-cover bg-fixed bg-center isolate relative before:content-[''] before:absolute before:inset-0 before:bg-blue-900 before:opacity-60 before:-z-[1]"
     >
-      <div class="flex flex-col gap-7 max-w-3xl mx-auto text-center px-5">
+      <div
+        class="flex flex-col gap-7 max-w-3xl mx-auto text-center px-5 relative"
+      >
         <p class="font-bold text-2xl">Hello World</p>
         <h1 class="font-bold text-7xl">Amazing Headline</h1>
         <p class="font-medium text-xl">
