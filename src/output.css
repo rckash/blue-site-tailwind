@@ -610,6 +610,10 @@ video {
   position: relative;
 }
 
+.inset-0 {
+  inset: 0px;
+}
+
 .left-1\/2 {
   left: 50%;
 }
